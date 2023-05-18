@@ -107,6 +107,10 @@ bot1 = (
         api_hash=API_HASH,
         session_string=STRING_SESSION1,
         plugins=dict(root="ProjectMan/modules"),
+        app_version="Android 12",
+        device_model="Samsung Galaxy A21s",
+        system_version="Samsung Galaxy A21s",
+        in_memory=True
     )
     if STRING_SESSION1
     else None
